@@ -1,0 +1,92 @@
+charset "utf-8";
+/* CSS Document */
+
+/*custom font*/
+@font-face
+{
+font-family: Juice;
+src: url(JUICE_Regular.TTF);
+src: url('juice_regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('juice_regular-webfont.woff') format('woff'),
+         url('juice_regular-webfont.ttf') format('truetype'),
+         url('juice_regular-webfont.svg#juice_regularregular') format('svg');
+}
+
+body
+{
+/* The page background and font */
+background:#ffffff;
+font-family:Juice;
+background-repeat:no-repeat;
+/* setting it on 0px will leave us with no padding around the design, rendering the page at the absolute top. */
+margin:0px;
+padding:0px;
+}
+
+/* Our wrapper */
+#wrapper
+{
+width:900px;
+/*height:950px;*/
+/* The following values will place this div in the middle, and since we put every div inside the wrapper it will render the whole page in the middle of the page.*/
+margin-left:auto;
+margin-right:auto;
+border:1px solid;
+}
+
+/*--------------*/
+/*   HEADER     */
+/*--------------*/      
+
+#header
+{
+height:300px;
+width:100%
+}
+
+.logo
+{
+display:block;
+margin:70px auto 20px;
+}
+
+.navigation
+{
+width:600px;
+margin-left:;
+margin-right:;
+margin-top:80px;
+font-size:20px;	
+background-color:#8AD9FF; 
+text-align: center;
+/*display:inline;*/
+}
+
+.navigation a 
+{
+text-decoration: none;	
+}
+
+
+/*--------------*/
+/*   BANNER     */
+/*--------------*/
+
+#banner
+{
+height:400px;
+width:100%;
+}
+
+#content
+{
+height:300px;
+width:100%;
+}
+
+#footer
+{
+height:200px;
+width:100%;
+background-color: #000;
+}
