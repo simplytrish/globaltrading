@@ -40,26 +40,24 @@ border:1px solid;
 
 #header
 {
-height:300px;
+height:250px;
 width:100%
 }
 
 .logo
 {
 display:block;
-margin:70px auto 20px;
+margin:20px auto 20px;
 }
 
 .navigation
 {
-width:600px;
+width:900px;
 margin-left:;
 margin-right:;
-margin-top:80px;
+margin-top:;
 font-size:20px;	
-background-color:#8AD9FF; 
-text-align: center;
-/*display:inline;*/
+text-align:center;
 }
 
 .navigation a 
