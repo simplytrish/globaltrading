@@ -50,19 +50,42 @@ display:block;
 margin:20px auto 20px;
 }
 
-.navigation
+#navigation
 {
-width:900px;
-margin-left:;
-margin-right:;
-margin-top:;
-font-size:20px;	
-text-align:center;
+width:900px;	
+text-align: center;
 }
 
-.navigation a 
+a:link
 {
-text-decoration: none;	
+color:#FFF;	
+text-decoration:none;
+}
+
+a:visited
+{
+color:#666666;	
+}
+
+a:hover
+{
+color:#03C;	
+}
+
+.horizontal
+{
+display: inline-block; 
+border-left: 1px solid; 
+padding-left: 1em;	
+padding-right: 1em;
+}
+
+.next
+{
+display: inline-block;	
+border-right: 1px solid; 
+padding-left: 1em;
+padding-right: 1em;
 }
 
 
