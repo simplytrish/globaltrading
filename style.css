@@ -14,7 +14,8 @@ font-family:'Roboto', serif;
 background-repeat:no-repeat;
 /* setting it on 0px will leave us with no padding around the design, rendering the page at the absolute top. */
 margin:0px;
-padding:0px;
+padding:0px; 
+padding-top:200px; 
 }
 
 /* Our wrapper */
@@ -33,7 +34,7 @@ margin-right:auto;
 /*--------------*/      
 
 #header
-{
+{   
 height:200px;
 width:100%;
 background:#eee; 
@@ -42,6 +43,11 @@ background:#eee;
 .logo
 {
 display:block;
+}
+
+.navbar-header
+{
+float:none;     
 }
 
 ul 
@@ -65,6 +71,7 @@ li ul
 {
     display: none;
     float:right;
+    margin-top:0px;
 }
 
 ul li a 
@@ -73,14 +80,14 @@ ul li a
     text-decoration: none;
     color: #ffffff;
     padding: 5px 15px 5px 15px;
-    background: #1e7c9a;
+    background: #003366;
     /*margin-left: 1px;*/
     white-space: nowrap;
 }
 
 ul li a:hover 
 {
-background: #003366;
+background: #1e7c9a;
 }
 
 li:hover ul 
@@ -94,9 +101,9 @@ li:hover li {
     font-size: 11px;
 }
 
-li:hover a { background: #003366; }
+li:hover a { background: #1e7c9a; }
 li:hover li a:hover {
-    background: #1e7c9a;
+    background: #003366;
 }
 
 /*#navigation 
@@ -195,6 +202,11 @@ text-align:center;
 font-size:1.5em;   
 }
 
+.descriptions
+{
+font-size:15px;     
+}
+
 #manifesto
 {
 width:100%;
@@ -210,13 +222,37 @@ width:100%;
 border-bottom: 1px solid #000;    
 }
 
+h3
+{
+color:#999999;    
+}
+
 /*--------------*/
 /*   FOOTER     */
 /*--------------*/
 
 #footer
-{
-height:200px;
-width:100%;
+{  
+width: 100%;
 background-color: #000;
+}
+
+.form
+{
+margin-top:-20px;    
+}
+
+.footlinks
+{
+margin-top:90px;            
+}
+
+.footlinks strong
+{  
+padding-right:10px;   
+}
+
+.footlinks a
+{
+padding-left:10px;     
 }
